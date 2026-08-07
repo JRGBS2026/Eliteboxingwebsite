@@ -1,0 +1,342 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+        name="description"
+        content="Elite Boxing shopping cart"
+    >
+
+    <title>
+        Cart | Elite Boxing
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <a
+        class="skip-link"
+        href="#main"
+    >
+        Skip to content
+    </a>
+
+
+    <div class="topbar">
+        FREE UK DELIVERY ON ORDERS OVER £50 • PREMIUM QUALITY GUARANTEED
+    </div>
+
+
+    <header class="site-header">
+
+        <div class="container nav-wrap">
+
+
+            <a
+                class="brand"
+                href="index.html"
+            >
+                ELITE <span>BOXING</span>
+            </a>
+
+
+            <button
+                class="menu-btn"
+                aria-expanded="false"
+                aria-label="Open navigation"
+            >
+                ☰
+            </button>
+
+
+            <nav
+                class="nav"
+                aria-label="Main navigation"
+            >
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="products.html">
+                    Shop
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+                <a
+                    class="cart-link"
+                    href="cart.html"
+                >
+                    Cart (
+                    <span data-cart-count>
+                        0
+                    </span>
+                    )
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main id="main">
+
+
+        <section class="page-hero">
+
+            <div class="container">
+
+                <span class="eyebrow">
+                    Your order
+                </span>
+
+                <h1>
+                    Shopping <span>Cart</span>
+                </h1>
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <div class="container cart-layout">
+
+
+                <div
+                    class="content-card"
+                    id="cartItems"
+                >
+                </div>
+
+
+                <aside class="content-card">
+
+                    <h2>
+                        Order Summary
+                    </h2>
+
+
+                    <div class="summary-row">
+
+                        <span>
+                            Subtotal
+                        </span>
+
+                        <strong id="subtotal">
+                            £0.00
+                        </strong>
+
+                    </div>
+
+
+                    <div class="summary-row">
+
+                        <span>
+                            Delivery
+                        </span>
+
+                        <span>
+                            Calculated at checkout
+                        </span>
+
+                    </div>
+
+
+                    <div class="summary-row total">
+
+                        <span>
+                            Total
+                        </span>
+
+                        <span id="total">
+                            £0.00
+                        </span>
+
+                    </div>
+
+
+                    <button
+                        class="btn"
+                        style="width:100%; margin-top:1rem;"
+                    >
+                        Proceed to Checkout
+                    </button>
+
+
+                    <p
+                        style="color:#999; font-size:0.85rem;"
+                    >
+                        Front-end demonstration only.
+                        No payment is processed.
+                    </p>
+
+                </aside>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <section class="newsletter">
+
+        <div class="container">
+
+
+            <div class="section-head">
+
+                <div>
+
+                    <span class="eyebrow">
+                        Join the Elite
+                    </span>
+
+                    <h2>
+                        Get offers and training updates
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <form>
+
+                <label
+                    class="visually-hidden"
+                    for="newsletterEmail"
+                >
+                    Email address
+                </label>
+
+
+                <input
+                    id="newsletterEmail"
+                    type="email"
+                    placeholder="Your email address"
+                >
+
+
+                <button
+                    class="btn"
+                    type="button"
+                >
+                    Subscribe
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+
+            <div>
+
+                <h3>
+                    Elite Boxing
+                </h3>
+
+                <p>
+                    Premium black-and-gold boxing equipment
+                    designed for serious training.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Shop
+                </h3>
+
+                <p>
+                    <a href="products.html">
+                        All products
+                    </a>
+                </p>
+
+                <p>
+                    <a href="cart.html">
+                        Shopping cart
+                    </a>
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Help
+                </h3>
+
+                <p>
+                    <a href="about.html">
+                        About us
+                    </a>
+                </p>
+
+                <p>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+    <div
+        class="toast"
+        role="status"
+        aria-live="polite"
+    >
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
